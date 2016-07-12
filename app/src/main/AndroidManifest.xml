@@ -41,6 +41,8 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
 
+        <service android:name=".NetWorkAccess"/>
+
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyB-PaPlpAJQv6JWH01zC1UrSz4aY-ajGD0" />
