@@ -44,7 +44,7 @@ public class SplashActivity extends AppCompatActivity {
               }
           }
         };
-
+        startService(new Intent(this,NetWorkAccess.class));
         background.start();
 
 
