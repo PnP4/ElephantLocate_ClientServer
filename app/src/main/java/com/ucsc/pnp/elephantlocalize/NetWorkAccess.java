@@ -36,7 +36,7 @@ public class NetWorkAccess extends Service {
         server.get("/", new HttpServerRequestCallback() {
             @Override
             public void onRequest(AsyncHttpServerRequest request, AsyncHttpServerResponse response) {
-                
+
                 response.send("Hello!!!");
             }
         });
